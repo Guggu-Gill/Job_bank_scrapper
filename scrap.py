@@ -3,6 +3,22 @@ import numpy as np
 import json 
 from tqdm import tqdm
 import os
+import boto3
+from botocore.exceptions import NoCredentialsError, PartialCredentialsError
+
+
+# use if required
+def save_json_to_s3(data, bucket_name, file_name):
+    s3_client = boto3.client('s3')
+    json_data = json.dumps(data)
+    try:
+        s3_client.put_object(Bucket=bucket_name, Key=file_name, Body=json_data, ContentType='application/json')
+        print(f"File {file_name} uploaded to {bucket_name} successfully.")
+    except (NoCredentialsError, PartialCredentialsError) as e:
+        print("Credentials not available or incomplete. Please check your AWS credentials.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
 
 #City name must be valid
 #do check the html page
@@ -34,7 +50,15 @@ for i in tqdm(range(len(job_id_arr))):
     if data is not None:
          data_arr.append(data)
 
+    #break 100-100 into chunks
 
-with open('data.json', 'w') as f:
-    json.dump(data_arr, f, indent=4)  
+    os.makedirs('data', exist_ok=True)
+
+    if i%100==0 and i!=0:
+        file_name="data/data_{i}.json".format(i=i)
+        if not os.path.isfile(file_name):
+            with open('data/data_{i}.json'.format(i=i), 'w') as f:
+                 json.dump(data_arr, f)  
+            print('data_{i}.json saved into disk'.format(i=i))
+        data_arr=[]
 

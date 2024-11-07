@@ -67,8 +67,6 @@ def press_button_multiple_times(url, delay=1):
     while True:
         try:
             button = driver.find_element(By.ID, "moreresultbutton")
-            # print(button.get_text())
-            # print('button',button)
             updated_html=driver.page_source
             a=_helper_scrap(updated_html)
 
@@ -102,7 +100,7 @@ def scarp_jd(id,delay=0.6):
         {dictionary of features}
         
     Raises:
-        ValueError: If `param1` is less than 0.
+        ValueError
     """
 
     url=f"https://www.jobbank.gc.ca/jobsearch/jobposting/{id}".format(id)
