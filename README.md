@@ -30,6 +30,8 @@ Ensure that the city/Province name provided in arguments is valid and matches th
 python scraper.py --city "Calgary" 
 ```
 
+
+
 ## Architecture for Data Analysis on AWS
 
 ![Blank diagram (3)](https://github.com/user-attachments/assets/d8ad2e56-ba39-4eb8-9701-0fa0c89ced3e)
