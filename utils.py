@@ -7,13 +7,30 @@ from webdriver_manager.chrome import ChromeDriverManager
 import re
 from datetime import datetime
 import time
-
+import boto3
+import json
+from botocore.exceptions import NoCredentialsError, PartialCredentialsError
 
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+
+def save_json_to_s3(data, bucket_name, file_name):
+    s3_client = boto3.client('s3')
+    json_data = json.dumps(data)
+    try:
+        s3_client.put_object(Bucket=bucket_name, Key=file_name, Body=json_data, ContentType='application/json')
+        print(f"File {file_name} uploaded to {bucket_name} successfully.")
+    except (NoCredentialsError, PartialCredentialsError) as e:
+        print("Credentials not available or incomplete. Please check your AWS credentials.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
+
+
 
 
 
