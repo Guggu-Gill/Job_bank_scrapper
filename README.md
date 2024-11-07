@@ -29,7 +29,7 @@ pip install -r requirements.txt
 Ensure that the city name provided in arguments is valid and matches the options available on jobbank.ca.
 
 ```python
-python scraper.py --city "Toronto" 
+python scraper.py --city "Calgary" 
 ```
 
 
