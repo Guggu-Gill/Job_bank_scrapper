@@ -32,6 +32,6 @@ python scraper.py --city "Calgary"
 
 ## Architecture for Data Analysis on AWS
 
-![Blank diagram (2)](https://github.com/user-attachments/assets/de3384d7-3d9e-4eb4-bb95-5f8e2862586a)
+![Blank diagram (3)](https://github.com/user-attachments/assets/d8ad2e56-ba39-4eb8-9701-0fa0c89ced3e)
 
 
