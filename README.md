@@ -30,6 +30,12 @@ Ensure that the city/Province name provided in arguments is valid and matches th
 python scraper.py --city "Calgary" 
 ```
 
+Adjust webdriver delay as per requirement in scrap.py file
+```bash
+delay_1=1.2
+delay_2=0.6
+```
+
 
 
 ## Architecture for Data Analysis on AWS
