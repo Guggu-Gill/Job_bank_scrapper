@@ -16,7 +16,16 @@ A web scraper for collecting job listings from [jobbank.ca](https://www.jobbank.
 
 
 
+``python
+git clone https://github.com/your-username/jobbank-scraper.git
+cd jobbank-scraper
+pip install -r requirements.txt
+``
+
+
 Ensure that the city name provided in arguments is valid and matches the options available on jobbank.ca.
 ``python
 python scraper.py --city "Toronto" 
 ``
+
+
