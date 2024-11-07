@@ -1,5 +1,5 @@
 # Job Bank Scraper for jobbank.ca 🇨🇦
-contact- [Basant Singh](https://www.linkedin.com/in/basantsingh1000/)🦁
+[Basant Singh](https://www.linkedin.com/in/basantsingh1000/)🦁
 
 A web scraper for collecting job listings from [jobbank.ca](https://www.jobbank.gc.ca) to analyze the Canadian job market with ease.
 
