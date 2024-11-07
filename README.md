@@ -1,7 +1,7 @@
 # Web Scraper for jobbank.ca 🇨🇦
 [Basant Singh](https://www.linkedin.com/in/basantsingh1000/)🦁
 
-A web scraper for collecting job listings from [jobbank.ca](https://www.jobbank.gc.ca) to analyze the Canadian job market in the given Canadain Cities.
+A web scraper for collecting job listings from [jobbank.gc.ca](https://www.jobbank.gc.ca) to analyze the Canadian job market in the given Canadain Cities/Provinces.
 
 ## Features
 1. City-Based Job Collection: Filters job listings by specific city, making it easy to focus on localized job markets.
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 
 
-Ensure that the city name provided in arguments is valid and matches the options available on jobbank.ca.
+Ensure that the city/Province name provided in arguments is valid and matches the options available on [jobbank.gc.ca](https://www.jobbank.gc.ca).
 
 ```bash
 python scraper.py --city "Calgary" 
