@@ -12,7 +12,7 @@ A web scraper for collecting job listings from [jobbank.ca](https://www.jobbank.
 ## Technologies Used
 1. Python for scripting
 2. Selenium & BeautifulSoup for web scraping
-3. numpy for storing job_id
+3. numpy for storing job_ids
 
 
 
