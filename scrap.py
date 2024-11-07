@@ -46,7 +46,7 @@ except:
 data_arr = [
 ]
 for i in tqdm(range(len(job_id_arr))):
-    data=scarp_jd(job_id_arr[i])
+    data=scarp_jd(job_id_arr[i],delay=0.7)
     if data is not None:
          data_arr.append(data)
 
