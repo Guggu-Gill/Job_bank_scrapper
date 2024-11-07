@@ -1,7 +1,7 @@
 # Job Bank Scraper for jobbank.ca 🇨🇦
 [Basant Singh](https://www.linkedin.com/in/basantsingh1000/)🦁
 
-A web scraper for collecting job listings from [jobbank.ca](https://www.jobbank.gc.ca) to analyze the Canadian job market with ease. It stores data into local disk.
+A web scraper for collecting job listings from [jobbank.ca](https://www.jobbank.gc.ca) to analyze the Canadian job market with ease.
 
 ## Features
 1. City-Based Job Collection: Filters job listings by specific city, making it easy to focus on localized job markets.
