@@ -18,5 +18,7 @@ A web scraper for collecting job listings from jobbank.ca to analyze the Canadia
 
 
 ``python
+# City name must be valid
+# do verify valid city name on jobbank.ca
 python scraper.py --city "Toronto" 
 ``
