@@ -1,7 +1,7 @@
 # Web Scraper for jobbank.ca 🇨🇦
 [Basant Singh](https://www.linkedin.com/in/basantsingh1000/)🦁
 
-A web scraper for collecting job listings from [jobbank.gc.ca](https://www.jobbank.gc.ca) to analyze the Canadian job market in the given Canadain Cities/Provinces.
+A local web scraper for collecting job listings from [jobbank.gc.ca](https://www.jobbank.gc.ca) to analyze the Canadian job market in the given Canadain Cities/Provinces.
 
 Use this code in EC2 user script and try to install chrome engine & other packages.
 Also try to optmize delay_1 & delay_2 parameters.
