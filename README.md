@@ -30,4 +30,9 @@ Ensure that the city name provided in arguments is valid and matches the options
 python scraper.py --city "Calgary" 
 ```
 
+## Architecture for Data Anaalysis
+
+![Blank diagram (1)](https://github.com/user-attachments/assets/898ed545-82a5-4ef4-8f50-4d9312b566d4)
+
+
 
