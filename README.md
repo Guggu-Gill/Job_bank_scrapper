@@ -42,4 +42,8 @@ delay_2=0.6
 
 ![Blank diagram (3)](https://github.com/user-attachments/assets/d8ad2e56-ba39-4eb8-9701-0fa0c89ced3e)
 
+- folder structure for easy Athena query
+
+![Blank diagram](https://github.com/user-attachments/assets/334f50ad-fb61-48f9-9980-3774057191ce)
+
 
