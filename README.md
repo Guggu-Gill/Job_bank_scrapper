@@ -19,9 +19,7 @@ A web scraper for collecting job listings from [jobbank.ca](https://www.jobbank.
 
 ``` bash
 git clone https://github.com/your-username/jobbank-scraper.git
-
 cd jobbank-scraper
-
 pip install -r requirements.txt
 ```
 
