@@ -14,3 +14,11 @@ A web scraper for collecting job listings from jobbank.ca to analyze the Canadia
 2. Selenium & BeautifulSoup for web scraping
 3. numpy for storing job_id
 
+
+``python
+git clone https://github.com/your-username/jobbank-scraper.git
+cd jobbank-scraper
+pip install -r requirements.txt
+
+``python
+python scraper.py --city "Toronto" 
