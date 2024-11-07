@@ -32,7 +32,7 @@ python scraper.py --city "Calgary"
 
 ## Architecture for Data Anaalysis
 
-![Blank diagram (1)](https://github.com/user-attachments/assets/898ed545-82a5-4ef4-8f50-4d9312b566d4)
 
+![Blank diagram (2)](https://github.com/user-attachments/assets/de3384d7-3d9e-4eb4-bb95-5f8e2862586a)
 
 
