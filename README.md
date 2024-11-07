@@ -3,7 +3,8 @@
 
 A web scraper for collecting job listings from [jobbank.gc.ca](https://www.jobbank.gc.ca) to analyze the Canadian job market in the given Canadain Cities/Provinces.
 
-Use this code in EC2 user script and try to optimize delay paramters given below.
+Use this code in EC2 user script and try to install chrome engine & other packages.
+Also try to optmize delay_1 & delay_2 parameters.
 
 ## Features
 1. City-Based Job Collection: Filters job listings by specific city, making it easy to focus on localized job markets.
