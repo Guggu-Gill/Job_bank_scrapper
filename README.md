@@ -15,6 +15,7 @@ A web scraper for collecting job listings from [jobbank.ca](https://www.jobbank.
 3. numpy for storing job_ids
 
 
+## Useage
 
 ``python
 git clone https://github.com/your-username/jobbank-scraper.git
