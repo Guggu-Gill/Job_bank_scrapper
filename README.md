@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Ensure that the city/Province name provided in arguments is valid and matches the options available on [jobbank.gc.ca](https://www.jobbank.gc.ca).
 
 ```bash
-python scraper.py --city "Calgary" 
+python scraper.py --city "Alberta" 
 ```
 
 ## Architecture for Data Analysis on AWS
