@@ -5,7 +5,7 @@ from tqdm import tqdm
 import os
 import boto3
 from botocore.exceptions import NoCredentialsError, PartialCredentialsError
-
+import argparse
 
 # use if required
 def save_json_to_s3(data, bucket_name, file_name):
@@ -23,8 +23,14 @@ def save_json_to_s3(data, bucket_name, file_name):
 #City name must be valid
 #do check the html page
 
-city="Calgary"
-# city="Toronto"
+parser = argparse.ArgumentParser(description='Job scraper for collecting job listings.')
+parser.add_argument('--city', type=str, required=True, help='City for job listings')
+args = parser.parse_args()
+city = args.city
+print(f"Scraping job listings for city: {city}")
+
+# city="Calgary"
+
 url="https://www.jobbank.gc.ca/jobsearch/jobsearch?searchstring=&locationstring={city}".format(city=city)
 
 
