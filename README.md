@@ -18,8 +18,7 @@ Also try to optmize delay_1 & delay_2 parameters.
 3. numpy for storing job_ids
 
 ## Video
-
-![video]()
+https://github.com/Guggu-Gill/Job_bank_scrapper/blob/main/video_calgary.mp4
 
 ## Useage
 
