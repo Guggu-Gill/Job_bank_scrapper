@@ -1,7 +1,7 @@
 # Web Scraper for jobbank.ca 🇨🇦
 [Basant Singh](https://www.linkedin.com/in/basantsingh1000/)🦁
 
-- Pls do adhere right to privacy acts and regulations- [more info](https://www.priv.gc.ca/en/opc-news/speeches-and-statements/2023/js-dc_20230824/)
+- Pls🙏 do adhere right to privacy acts and regulations- [more info](https://www.priv.gc.ca/en/opc-news/speeches-and-statements/2023/js-dc_20230824/)
 
 - A local web scraper for collecting job listings from [jobbank.gc.ca](https://www.jobbank.gc.ca) to analyze the Canadian job market in the given Canadain Cities/Provinces.
 
